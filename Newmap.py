@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image  
 def teams_map(option):
   if option=="Boston Celtics"
-      st.header('主場:TD Garden')
-      col1, col2 = st.columns(2)
+    st.header('主場:TD Garden')
+    col1, col2 = st.columns(2)
     with col1: 
         TDGarden= folium.Map(location=[42.36622394101576, -71.06214665765047], zoom_start=16)
               # add marker for Liberty Bell
@@ -21,8 +21,8 @@ def teams_map(option):
         
         
   if option=="Brooklyn Nets"
-      st.header('主場:Barclays Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Barclays Center')
+    col1, col2 = st.columns(2)
     with col1: 
         BarclaysCenter= folium.Map(location=[40.682725423383374, -73.97526212020857], zoom_start=16)
             # add marker for Liberty Bell
@@ -40,8 +40,8 @@ def teams_map(option):
     
     
   if option=="New York Knicks"
-      st.header('主場:MSG The Garden')
-      col1, col2 = st.columns(2)
+    st.header('主場:MSG The Garden')
+    col1, col2 = st.columns(2)
     with col1: 
         MSGTheGarden= folium.Map(location=[40.7505, -73.99352], zoom_start=16)
             # add marker for Liberty Bell
@@ -59,8 +59,8 @@ def teams_map(option):
     
 
   if option=="Philadelphia 76ers"
-      st.header('主場:Wells Fargo Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Wells Fargo Center')
+    col1, col2 = st.columns(2)
     with col1:   
         wellsfargocenter= folium.Map(location=[39.90130024709659, -75.17162545031324], zoom_start=16)
             # add marker for Liberty Bell
@@ -79,8 +79,8 @@ def teams_map(option):
         
         
   if option=="Toronto Raptors"
-      st.header('主場:Scotiabank Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:Scotiabank Arena')
+    col1, col2 = st.columns(2)
     with col1:  
         ScotiabankArena= folium.Map(location=[43.643485488886185, -79.37908251728793], zoom_start=16)
             # add marker for Liberty Bell
@@ -98,8 +98,8 @@ def teams_map(option):
         
         
   if option=="Chicago Bulls"
-      st.header('主場:United Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:United Center')
+    col1, col2 = st.columns(2)
     with col1:
         UnitedCenter= folium.Map(location=[41.880708350972725, -87.67417027269533], zoom_start=16)
             # add marker for Liberty Bell
@@ -117,8 +117,8 @@ def teams_map(option):
         
         
   if option=="Cleveland Cavaliers"
-      st.header('主場:Quicken Loans Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:Quicken Loans Arena')
+    col1, col2 = st.columns(2)
     with col1:  
         QuickenLoansArena= folium.Map(location=[41.49661457628494, -81.68800263971569], zoom_start=16)
             # add marker for Liberty Bell
@@ -136,8 +136,8 @@ def teams_map(option):
     
     
   if option=="Detroit Pistons"
-      st.header('主場:Little Caesars Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:Little Caesars Arena')
+    col1, col2 = st.columns(2)
     with col1:  
         LittleCaesarsArena= folium.Map(location=[42.3412532527852, -83.05525657294322], zoom_start=16)
             # add marker for Liberty Bell
@@ -155,8 +155,8 @@ def teams_map(option):
     
 
   if option=="Indiana Pacers"
-      st.header('主場:Gainbridge Fieldhouse')
-      col1, col2 = st.columns(2)
+    st.header('主場:Gainbridge Fieldhouse')
+    col1, col2 = st.columns(2)
     with col1:  
         GainbridgeFieldhouse= folium.Map(location=[39.76423306239759, -86.15505390428618], zoom_start=16)
             # add marker for Liberty Bell
@@ -174,8 +174,8 @@ def teams_map(option):
         st.image(image1)
    
   if option=="Milwaukee Bucks"
-      st.header('主場:Fiserv Forum')
-      col1, col2 = st.columns(2)
+    st.header('主場:Fiserv Forum')
+    col1, col2 = st.columns(2)
     with col1:
         FiservForum= folium.Map(location=[43.0451977912526, -87.91697850606084], zoom_start=16)
             # add marker for Liberty Bell
@@ -194,8 +194,8 @@ def teams_map(option):
     
 
   if option=="Atlanta Hawks"
-      st.header('主場:State Farm Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:State Farm Arena')
+    col1, col2 = st.columns(2)
     with col1:
         StateFarmArena= folium.Map(location=[33.75737827997708, -84.39633513151331], zoom_start=16)
             # add marker for Liberty Bell
@@ -214,8 +214,8 @@ def teams_map(option):
     
   
   if option=="Charlotte Hornets"
-      st.header('主場:Spectrum Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Spectrum Center')
+    col1, col2 = st.columns(2)
     with col1: 
         SpectrumCenter= folium.Map(location=[35.22528408738218, -80.83934793137779], zoom_start=16)
             # add marker for Liberty Bell
@@ -234,8 +234,8 @@ def teams_map(option):
     
   
   if option=="Miami Heat"
-      st.header('主場:FTX Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:FTX Arena')
+    col1, col2 = st.columns(2)
     with col1:  
         FTXArena= folium.Map(location=[25.78136, -80.18793], zoom_start=16)
             # add marker for Liberty Bell
@@ -252,8 +252,8 @@ def teams_map(option):
         image1 =Image.open('Home/FTX Arena1.jpg')
         st.image(image1)
   if option=="Orlando Magic"
-      st.header('主場:Amway Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Amway Center')
+    col1, col2 = st.columns(2)
     with col1:  
         AmwayCenter= folium.Map(location=[28.539343909610295, -81.38387496040187], zoom_start=16)
             # add marker for Liberty Bell
@@ -272,8 +272,8 @@ def teams_map(option):
     
   
   if option=="Washington Wizards"
-      st.header('主場:Capital One Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:Capital One Arena')
+    col1, col2 = st.columns(2)
     with col1:        
         CapitalOneArena= folium.Map(location=[38.89830942692672, -77.02088898904876], zoom_start=16)
             # add marker for Liberty Bell
@@ -290,8 +290,8 @@ def teams_map(option):
         st.image(image1)
    
   if option=="Denver Nuggets"
-      st.header('主場:Ball Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:Ball Arena')
+    col1, col2 = st.columns(2)
     with col1:
         BallArena= folium.Map(location=[39.74868, -105.00758], zoom_start=16)
             # add marker for Liberty Bell
@@ -309,8 +309,8 @@ def teams_map(option):
    
   
   if option=="Minnesota Timberwolves"
-      st.header('主場:Target Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Target Center')
+    col1, col2 = st.columns(2)
     with col1:
         TargetCenter= folium.Map(location=[44.97956, -93.27617], zoom_start=16)
             # add marker for Liberty Bell
@@ -327,8 +327,8 @@ def teams_map(option):
         st.image(image1)
    
   if option=="Oklahoma City Thunder"
-      st.header('主場:Chesapeake Energy Arena')
-      col1, col2 = st.columns(2)
+    st.header('主場:Chesapeake Energy Arena')
+    col1, col2 = st.columns(2)
     with col1: 
         ChesapeakeEnergyArena= folium.Map(location=[35.4634, -97.5151], zoom_start=16)
             # add marker for Liberty Bell
@@ -345,8 +345,8 @@ def teams_map(option):
         st.image(image1)
     
   if option=="Portland Trail Blazers"
-      st.header('主場:Moda Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Moda Center')
+    col1, col2 = st.columns(2)
     with col1:   
         ModaCenter= folium.Map(location=[45.53158, -122.66685], zoom_start=16)
             # add marker for Liberty Bell
@@ -363,8 +363,8 @@ def teams_map(option):
         st.image(image1)
  
   if option=="Utah Jazz"
-      st.header('主場:Vivint Arena')
-      col1,col2 = st.columns(2)
+    st.header('主場:Vivint Arena')
+    col1,col2 = st.columns(2)
     with col1:
         VivintArena= folium.Map(location=[40.76832, -111.90108], zoom_start=16)
             # add marker for Liberty Bell
@@ -381,8 +381,8 @@ def teams_map(option):
         image1 =Image.open('Home/Vivint Arena1.jpeg')
         st.image(image1)
   if option=="Golden State Warriors"
-      st.header('主場:Chase Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Chase Center')
+    col1, col2 = st.columns(2)
     with col1:
         Chase_Center= folium.Map(location=[37.768056, -122.3875], zoom_start=16)
             # add marker for Liberty Bell
@@ -400,8 +400,8 @@ def teams_map(option):
     
   
   if option=="Los Angeles Clippers"
-      st.header('主場:Staples Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Staples Center')
+    col1, col2 = st.columns(2)
     with col1:
         Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
             # add marker for Liberty Bell
@@ -419,8 +419,8 @@ def teams_map(option):
         st.image(image1)
    
   if option=="Los Angeles Lakers"
-      st.header('主場:Staples Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Staples Center')
+    col1, col2 = st.columns(2)
     with col1:
         Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
             # add marker for Liberty Bell
@@ -439,8 +439,8 @@ def teams_map(option):
     
   
   if option=="Phoenix Suns"
-      st.header('主場:Footprint Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Footprint Center')
+    col1, col2 = st.columns(2)
     with col1:
         Footprint_Center= folium.Map(location=[33.445833,-112.071389], zoom_start=16)
             # add marker for Liberty Bell
@@ -459,8 +459,8 @@ def teams_map(option):
     
 
   if option=="Sacramento Kings"
-      st.header('主場:Golden1 Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Golden1 Center')
+    col1, col2 = st.columns(2)
     with col1:
         Golden1_Center= folium.Map(location=[38.580361, -121.499611], zoom_start=16)
             # add marker for Liberty Bell
@@ -478,8 +478,8 @@ def teams_map(option):
         st.image(image1)
    
   if option=="Dallas Mavericks"
-      st.header('主場:American Airlines Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:American Airlines Center')
+    col1, col2 = st.columns(2)
     with col1:
         American_Airlines_Center= folium.Map(location=[32.790556, -96.810278], zoom_start=16)
             # add marker for Liberty Bell
@@ -498,8 +498,8 @@ def teams_map(option):
     
   
   if option=="Houston Rockets"
-      st.header('主場:Toyota Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Toyota Center')
+    col1, col2 = st.columns(2)
     with col1:
         Toyota_Center= folium.Map(location=[29.750833, -95.362222], zoom_start=16)
             # add marker for Liberty Bell
@@ -517,8 +517,8 @@ def teams_map(option):
         st.image(image1)
     
   if option=="Memphis Grizzlies"
-      st.header('主場:FedExForum Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:FedExForum Center')
+    col1, col2 = st.columns(2)
     with col1:
         FedExForum_Center= folium.Map(location=[35.138333, -90.050556], zoom_start=16)
             # add marker for Liberty Bell
@@ -537,8 +537,8 @@ def teams_map(option):
     
     
   if option=="New Orleans Pelicans"
-      st.header('主場:Smoothie King Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:Smoothie King Center')
+    col1, col2 = st.columns(2)
     with col1:
         Smoothie_King_Center= folium.Map(location=[29.948889, -90.081944], zoom_start=16)
             # add marker for Liberty Bell
@@ -556,8 +556,8 @@ def teams_map(option):
         st.image(image1)
     
   if option=="San Antonio Spurs"
-      st.header('主場:ATT Center')
-      col1, col2 = st.columns(2)
+    st.header('主場:ATT Center')
+    col1, col2 = st.columns(2)
     with col1:
         ATT_Center= folium.Map(location=[29.426944, -98.4375], zoom_start=16)
             # add marker for Liberty Bell
